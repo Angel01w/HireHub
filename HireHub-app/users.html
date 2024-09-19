@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/biblioteca-icon.png" width="30" height="30" class="d-inline-block align-top" alt="Biblioteca">
+            Biblioteca
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html">Libros</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="users.html">Usuarios</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Gestión de Usuarios</h1>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <!-- Formulario para agregar/editar usuarios -->
+                <form id="user-form" class="card p-3 mb-4">
+                    <h2 class="card-title">Agregar/Editar Usuario</h2>
+                    <input type="hidden" id="user-id">
+                    <div class="form-group">
+                        <label for="user-name">Nombre del usuario</label>
+                        <input type="text" id="user-name" class="form-control" placeholder="Nombre del usuario" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-email">Correo electrónico</label>
+                        <input type="email" id="user-email" class="form-control" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-phone">Teléfono</label>
+                        <input type="text" id="user-phone" class="form-control" placeholder="Teléfono">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-plus"></i> Guardar Usuario</button>
+                </form>
+            </div>
+            <div class="col-md-8">
+                <!-- Filtro de búsqueda -->
+                <div class="input-group mb-3">
+                    <input type="text" id="search" class="form-control" placeholder="Buscar usuario...">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+
+                <!-- Lista de usuarios -->
+                <div class="list-container">
+                    <h2 class="text-center">Usuarios</h2>
+                    <ul id="user-list" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="user-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Reclutamiento y Selección RH</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="~/Design/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="~/Design///fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900">
+    <link rel="stylesheet" href="~/Design/css/bootstrap.css">
+    <link rel="stylesheet" href="~/Design/css/fonts.css">
+    <link rel="stylesheet" href="~/Design/css/style.css">
+    <link href="~/content/site.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- DataTables CSS y JS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <!-- FontAwesome para los iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS & JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <style>
+        /* Ajustes generales */
+        body {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        /* Barra de navegación */
+        .navbar, layoutSidenav {
+            background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(0,86,179,1) 100%);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 16px;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #ccc;
+            }
+
+        /* Sidebar */
+        .sb-sidenav {
+            background-color: #343a40;
+        }
+
+            .sb-sidenav .nav-link {
+                color: rgba(255,255,255,.5);
+            }
+
+                .sb-sidenav .nav-link:hover {
+                    color: #fff;
+                    background-color: rgba(255,255,255,.1);
+                }
+
+        /* Botones */
+        button.btn {
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+            button.btn:hover {
+                background-color: #0056b3;
+            }
+
+        /* DataTables */
+        table.dataTable {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+            font-size: 14px;
+        }
+
+            table.dataTable thead th {
+                background-color: #007bff; /* Color azul para cabeceras */
+                color: white;
+            }
+
+            table.dataTable tbody tr {
+                background-color: #f9f9f9;
+            }
+
+                table.dataTable tbody tr:hover {
+                    background-color: #e9ecef;
+                }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            padding: 0.5em 1em;
+            margin: 0.2em;
+            background-color: #007bff;
+            color: white;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+            .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav id="ChangeColor" class="sb-topnav navbar navbar-expand">
+        <!-- Navbar Brand-->
+        <a id="TipoLetras" class="navbar-brand ps-3" href="#">Hirehub</a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        <ul class="navbar-nav ms-auto me-0 me-md-3 my-2 my-md-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="@Url.Action("Index","Login")">Cerrar Sesión</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Resumen</div>
+                        <a class="nav-link" href="~/Home/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>Dashboard
+                        </a>
+
+                        <div class="sb-sidenav-menu-heading">Gestión</div>
+
+                        <a class="nav-link" href="~/Competencias/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tasks"></i></div>Competencias
+                        </a>
+
+                        <a class="nav-link" href="~/Idiomas/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-language"></i></div>Idiomas
+                        </a>
+
+                        <a class="nav-link" href="~/Capacitaciones/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-chalkboard-teacher"></i></div>Capacitaciones
+                        </a>
+
+                        <a class="nav-link" href="~/Puestos/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-briefcase"></i></div>Puestos
+                        </a>
+
+                        <a class="nav-link" href="~/Candidatos/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-user-tie"></i></div>Candidatos
+                        </a>
+
+                        <a class="nav-link" href="~/Empleados/Index2">
+                            <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>Empleados
+                        </a>
+
+                        <a class="nav-link" href="~/ExperienciaLaboral/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-briefcase"></i></div>Experiencia Laboral
+                        </a>
+
+                        <a class="nav-link" href="~/ConsultaReporte/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-file-alt"></i></div>Consulta Reporte
+                        </a>
+
+                        <a class="nav-link" href="~/ConsultaReporte/Index2">
+                            <div class="sb-nav-link-icon"><i class="fas fa-file-signature"></i></div>Reporte de Empleados
+                        </a>
+                    </div>
+
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Bienvenido:</div>
+                    Sistema de Reclutamiento
+                </div>
+            </nav>
+        </div>
+
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    @RenderBody()
+                </div>
+            </main>
+
+            <footer class="footer bg-white text-dark pt-4"> 
+                <div class="text-center py-3" style="background-color: #f8f9fa;">
+                    <small>Diseñado por <a href="#" class="text-primary fw-bold">Reclutamiento y Selección RH Team</a></small>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", event => {
+            // Toggle the side navigation
+            const sidebarToggle = document.body.querySelector("#sidebarToggle");
+            if (sidebarToggle) {
+                sidebarToggle.addEventListener("click", event => {
+                    event.preventDefault();
+                    document.body.classList.toggle("sb-sidenav-toggled");
+                    localStorage.setItem("sb|sidebar-toggle", document.body.classList.contains("sb-sidenav-toggled"));
+                });
+            }
+        });
+    </script>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

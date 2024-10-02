@@ -1,0 +1,132 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Competencias";
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Empleados por Rango de Fechas</title>
+
+    <!-- Bootstrap CSS -->
+
+    <!-- Custom CSS para mejorar el estilo -->
+    <style>
+        /* Ajustar el tamaño del icono de calendario */
+        .input-group-text {
+            background-color: #fff;
+            border: 1px solid #ced4da;
+        }
+
+        /* Mejorar la apariencia de los campos de fecha */
+        .form-control {
+            border-radius: 0.375rem;
+        }
+
+            .form-control:focus {
+                border-color: #86b7fe;
+                box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h2>Reporte de Empleados de Nuevo Ingreso</h2>
+        <br />
+        <!-- Formulario para seleccionar el rango de fechas -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="input-group">
+                    <input type="date" id="startDate" class="form-control" placeholder="dd/mm/aaaa">
+                    <span class="input-group-text">
+                        <i class="fas fa-calendar-alt"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <input type="date" id="endDate" class="form-control" placeholder="dd/mm/aaaa">
+                    <span class="input-group-text">
+                        <i class="fas fa-calendar-alt"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" onclick="filtrarEmpleados()">Filtrar</button>
+
+        <!-- Mensaje de "sin datos" -->
+        <div id="noDataMessage" class="alert alert-warning mt-4 d-none">
+            No se encontraron empleados de nuevo ingreso en el rango de fechas seleccionado.
+        </div>
+
+        <!-- Tabla de resultados -->
+        <div class="table-responsive mt-4">
+            <table id="tablaEmpleados" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Fecha de Ingreso</th>
+                        <th>Departamento</th>
+                        <th>Posición</th>
+                        <th>Salario Mensual</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Se llenará dinámicamente con JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function filtrarEmpleados() {
+            var startDate = $('#startDate').val();
+            var endDate = $('#endDate').val();
+
+            $.ajax({
+                url: '/ConsultaReporte/FiltrarPorFechaIngreso',
+                type: 'GET',
+                data: {
+                    startDate: startDate,
+                    endDate: endDate
+                },
+                success: function (data) {
+                    var tabla = $('#tablaEmpleados tbody');
+                    tabla.empty();
+
+                    if (data.length === 0) {
+                        // Mostrar mensaje de "sin datos"
+                        $('#noDataMessage').removeClass('d-none');
+                    } else {
+                        // Ocultar mensaje de "sin datos" si hay resultados
+                        $('#noDataMessage').addClass('d-none');
+
+                        // Llenar la tabla con los datos filtrados
+                        data.forEach(function (empleado) {
+                            var row = '<tr>' +
+                                '<td>' + empleado.employeeID + '</td>' +
+                                '<td>' + empleado.name + '</td>' +
+                                '<td>' + empleado.hireDate + '</td>' +
+                                '<td>' + empleado.department + '</td>' +
+                                '<td>' + empleado.position + '</td>' +
+                                '<td>' + empleado.monthlySalary + '</td>' +
+                                '<td>' + empleado.status + '</td>' +
+                                '</tr>';
+                            tabla.append(row);
+                        });
+                    }
+                },
+                error: function () {
+                    alert('Error al filtrar los empleados.');
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

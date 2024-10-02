@@ -1,0 +1,95 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Competencias";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Candidatos</title>
+
+
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h2>Filtrar Candidatos</h2>
+        <br />
+        <!-- Formulario de Filtros -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <label for="desiredPosition" class="form-label">Puesto Deseado</label>
+                <input type="text" id="desiredPosition" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label for="competency" class="form-label">Competencias</label>
+                <input type="text" id="competency" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label for="training" class="form-label">Capacitación</label>
+                <input type="text" id="training" class="form-control">
+            </div>
+        </div>
+
+        <button class="btn btn-primary" onclick="filtrarCandidatos()">Filtrar</button>
+
+        <!-- Tabla de resultados -->
+        <div class="table-responsive mt-4">
+            <table id="tablaCandidatos" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Puesto</th>
+                        <th>Competencias</th>
+                        <th>Capacitaciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Se llenará dinámicamente con JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        function filtrarCandidatos() {
+            var desiredPosition = $('#desiredPosition').val();
+            var competency = $('#competency').val();
+            var training = $('#training').val();
+
+            $.ajax({
+                url: '/ConsultaReporte/FiltrarCandidatos',
+                type: 'GET',
+                data: {
+                    desiredPosition: desiredPosition,
+                    competency: competency,
+                    training: training
+                },
+                success: function (data) {
+                    // Limpiar la tabla
+                    var tabla = $('#tablaCandidatos tbody');
+                    tabla.empty();
+
+                    // Llenar la tabla con los datos filtrados
+                    data.forEach(function (candidato) {
+                        var row = '<tr>' +
+                            '<td>' + candidato.candidateID + '</td>' +
+                            '<td>' + candidato.name + '</td>' +
+                            '<td>' + candidato.desiredPosition + '</td>' +
+                            '<td>' + candidato.keyCompetencies + '</td>' +
+                            '<td>' + candidato.keyTrainings + '</td>' +
+                            '</tr>';
+                        tabla.append(row);
+                    });
+                },
+                error: function () {
+                    alert('Error al filtrar los candidatos.');
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

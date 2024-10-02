@@ -1,0 +1,149 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Puestos";
+}
+
+<!-- Cargar un script personalizado -->
+<script src="~/javascripts/Puestos/home.js"></script>
+
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestion</a></li>
+    <li class="breadcrumb-item active">Puestos</li>
+</ol>
+
+<div class="card mb-4">
+    <div class="card-header" style="background-color: #20c997; color: white;">
+        <i class="fas fa-table me-1"></i> Listado de Puestos
+    </div>
+    <div class="card-body">
+        <div class="row mb-4">
+            <div class="col-sm-12">
+                <button class="btn" style="background-color: steelblue; border: none; color: white; padding: 10px 20px; font-size: 16px; border-radius: 5px;" type="button" onclick="abrirModal(null)">
+                    <i class="fas fa-plus"></i> Nuevo
+                </button>
+            </div>
+        </div>
+
+        <!-- Spinner de carga dentro de la tabla -->
+        <div id="loading-spinner" class="d-none table-loading-spinner text-center">
+            <div class="spinner-border text-success" style="width: 5rem; height: 5rem;" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+            <p style="color: #28a745;">Cargando datos, por favor espera...</p>
+        </div>
+
+        <hr />
+
+        <!-- Tabla para mostrar los tipos de usuarios -->
+        <table id="tabla" class="display responsive table table-bordered" style="width:100%">
+            <thead style="background-color: #28a745; color: white;">
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Nivel de Riesgo</th>
+                    <th>
+                        Nivel Mínimo Salario
+                    </th> 
+                    <th>
+                        Nivel Máximo Salario
+                    </th> 
+                    <th>
+                        Estado
+                    </th> 
+                    <th>
+                        Acciones
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí va la data que se llena dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="FormModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!-- Tamaño grande -->
+        <div class="modal-content shadow-lg rounded-4 border-0">
+            <!-- Sombra y bordes redondeados -->
+            <div class="modal-header bg-success text-white rounded-top">
+                <!-- Fondo verde y borde redondeado superior -->
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión de Puestos</h5> <!-- Título en negrita -->
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Botón de cierre -->
+            </div>
+            <div class="modal-body px-4 py-3">
+                <!-- Espaciado interno amplio -->
+                <form id="formNivel">
+                    <input id="trainingID" name="trainingID" type="hidden" />
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control required rounded-3" id="name" name="name" autocomplete="off" placeholder="Nombre">
+                                <label for="txtnombre" class="text-muted">Nombre</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <select id="riskLevel" class="form-select rounded-3" name="riskLevel">
+                                    <option value="Alto">Alto</option>
+                                    <option value="Medio">Medio</option>
+                                    <option value="Bajo">Bajo</option>
+                                </select>
+                                <label for="cboEstado" class="text-muted">Nivel de Riesgo</label>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="number" class="form-control required rounded-3" id="minimumSalary" name="inimumSalary" autocomplete="off" placeholder="Nivel Mínimo Salario
+">
+                                <label for="txtnombre" class="text-muted">
+                                    Nivel Mínimo Salario
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="number" class="form-control required rounded-3" id="maximumSalary" name="maximumSalary" autocomplete="off" placeholder="Nivel Máximo Salario">
+                                <label for="txtnombre" class="text-muted">
+                                    Nivel Máximo Salario
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <select id="status" class="form-select rounded-3" name="status">
+                                    <option value="1">Activo</option>
+                                    <option value="0">No Activo</option>
+                                </select>
+                                <label for="cboEstado" class="text-muted">Estado</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+                <!-- Botones separados y centrados -->
+                <button type="button" class="btn btn-danger btn-lg px-4" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary btn-lg px-4" onclick="Guardar()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>

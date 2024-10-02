@@ -1,0 +1,149 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Capacitaciones";
+}
+
+<!-- Cargar un script personalizado -->
+<script src="~/javascripts/Capacitaciones/home.js"></script>
+
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestion</a></li>
+    <li class="breadcrumb-item active">Capacitaciones</li>
+</ol>
+
+<div class="card mb-4">
+    <div class="card-header" style="background-color: #20c997; color: white;">
+        <i class="fas fa-table me-1"></i> Listado de Capacitaciones
+    </div>
+    <div class="card-body">
+        <div class="row mb-4">
+            <div class="col-sm-12">
+                <button class="btn" style="background-color: steelblue; border: none; color: white; padding: 10px 20px; font-size: 16px; border-radius: 5px;" type="button" onclick="abrirModal(null)">
+                    <i class="fas fa-plus"></i> Nuevo
+                </button>
+            </div>
+        </div>
+
+        <!-- Spinner de carga dentro de la tabla -->
+        <div id="loading-spinner" class="d-none table-loading-spinner text-center">
+            <div class="spinner-border text-success" style="width: 5rem; height: 5rem;" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+            <p style="color: #28a745;">Cargando datos, por favor espera...</p>
+        </div>
+
+        <hr />
+
+        <!-- Tabla para mostrar los tipos de usuarios -->
+        <table id="tabla" class="display responsive table table-bordered" style="width:100%">
+            <thead style="background-color: #28a745; color: white;">
+                <tr>
+                    <th>ID</th>
+                    <th>Descripcion</th>
+                    <th>Nivel</th>
+                    <th>
+                        Fecha Desde
+                    </th> 
+                    <th>
+                        Fecha Hasta
+                    </th> 
+                    <th>
+                        Institución
+                    </th>  
+                    <th>
+                        Acciones
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí va la data que se llena dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="FormModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!-- Tamaño grande -->
+        <div class="modal-content shadow-lg rounded-4 border-0">
+            <!-- Sombra y bordes redondeados -->
+            <div class="modal-header bg-success text-white rounded-top">
+                <!-- Fondo verde y borde redondeado superior -->
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión de Capacitaciones</h5> <!-- Título en negrita -->
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Botón de cierre -->
+            </div>
+            <div class="modal-body px-4 py-3">
+                <!-- Espaciado interno amplio -->
+                <form id="formNivel">
+                    <input id="trainingID" name="trainingID" type="hidden" />
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control required rounded-3" id="description" name="description" autocomplete="off" placeholder="Descripción">
+                                <label for="txtdescripcion" class="text-muted">Descripción</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <select id="level" class="form-select rounded-3" name="level">
+                                    <option value="Grado">Grado</option>
+                                    <option value="Post-grado">Post-grado</option>
+                                    <option value="Maestría">Maestría</option>
+                                    <option value="Doctorado">Doctorado</option>
+                                    <option value="Técnico">Técnico</option>
+                                    <option value="Gestión">Gestión</option>
+                                </select>
+                                <label for="cboEstado" class="text-muted">Level</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="datetime-local" class="form-control required rounded-3" id="startDate" name="startDate" autocomplete="off" placeholder="Fecha Desde
+">
+                                <label for="txtdescripcion" class="text-muted">
+                                    Fecha Desde
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="datetime-local" class="form-control required rounded-3" id="endDate" name="endDate" autocomplete="off" placeholder="Fecha Hasta
+">
+                                <label for="txtdescripcion" class="text-muted">
+                                    Fecha Hasta
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control required rounded-3" id="institution" name="institution" autocomplete="off" placeholder="Institución">
+                                <label for="institution" class="text-muted">Institución</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+                <!-- Botones separados y centrados -->
+                <button type="button" class="btn btn-danger btn-lg px-4" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary btn-lg px-4" onclick="Guardar()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,183 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Empleado";
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Empleados</title>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h2>Gestión de Empleados</h2>
+
+        <!-- Botón para agregar nuevo empleado -->
+        <button class="btn btn-success mb-3" onclick="abrirModalNuevo()">Agregar Nuevo Empleado</button>
+
+        <!-- Tabla de empleados -->
+        <div class="table-responsive">
+            <table id="tablaEmpleados" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Identificación</th>
+                        <th>Nombre</th>
+                        <th>Fecha de Ingreso</th>
+                        <th>Departamento</th>
+                        <th>Posición</th>
+                        <th>Salario Mensual</th>
+                        <th>Status</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Se llenará dinámicamente con JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Modal para agregar/editar empleados -->
+        <div class="modal fade" id="modalEmpleado" tabindex="-1" aria-labelledby="modalEmpleadoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalEmpleadoLabel">Nuevo Empleado</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="formEmpleado">
+                            <input type="hidden" id="employeeID">
+                            <div class="mb-3">
+                                <label for="identification" class="form-label">Identificación</label>
+                                <input type="text" id="identification" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" id="name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="department" class="form-label">Departamento</label>
+                                <input type="text" id="department" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="position" class="form-label">Posición</label>
+                                <input type="text" id="position" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="monthlySalary" class="form-label">Salario Mensual</label>
+                                <input type="number" id="monthlySalary" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="status" class="form-label">Estado</label>
+                                <select id="status" class="form-select">
+                                    <option value="Activo">Activo</option>
+                                    <option value="Inactivo">Inactivo</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary" onclick="guardarEmpleado()">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            cargarEmpleados();
+        });
+
+        function cargarEmpleados() {
+            $.get('/Empleados/Index', function (data) {
+                var tabla = $('#tablaEmpleados tbody');
+                tabla.empty();
+
+                data.forEach(function (empleado) {
+                    var row = '<tr>' +
+                        '<td>' + empleado.employeeID + '</td>' +
+                        '<td>' + empleado.identification + '</td>' +
+                        '<td>' + empleado.name + '</td>' +
+                        '<td>' + empleado.hireDate + '</td>' +
+                        '<td>' + empleado.department + '</td>' +
+                        '<td>' + empleado.position + '</td>' +
+                        '<td>' + empleado.monthlySalary + '</td>' +
+                        '<td>' + empleado.status + '</td>' +
+                        '<td>' +
+                        '<button class="btn btn-warning" onclick="editarEmpleado(' + empleado.employeeID + ')">Editar</button>' +
+                        '<button class="btn btn-danger" onclick="eliminarEmpleado(' + empleado.employeeID + ')">Eliminar</button>' +
+                        '</td>' +
+                        '</tr>';
+                    tabla.append(row);
+                });
+            });
+        }
+
+        function abrirModalNuevo() {
+            $('#formEmpleado')[0].reset();
+            $('#employeeID').val('');
+            $('#modalEmpleado').modal('show');
+        }
+
+        function guardarEmpleado() {
+            var id = $('#employeeID').val();
+            var url = id ? '/Empleados/Update/' + id : '/Empleados/Create';
+            var tipo = id ? 'PUT' : 'POST';
+
+            var empleado = {
+                employeeID: id,
+                identification: $('#identification').val(),
+                name: $('#name').val(),
+                department: $('#department').val(),
+                position: $('#position').val(),
+                monthlySalary: $('#monthlySalary').val(),
+                status: $('#status').val()
+            };
+
+            $.ajax({
+                url: url,
+                type: tipo,
+                contentType: 'application/json',
+                data: JSON.stringify(empleado),
+                success: function () {
+                    $('#modalEmpleado').modal('hide');
+                    cargarEmpleados();
+                }
+            });
+        }
+
+        function editarEmpleado(id) {
+            $.get('/Empleados/GetEmployee/' + id, function (empleado) {
+                $('#employeeID').val(empleado.employeeID);
+                $('#identification').val(empleado.identification);
+                $('#name').val(empleado.name);
+                $('#department').val(empleado.department);
+                $('#position').val(empleado.position);
+                $('#monthlySalary').val(empleado.monthlySalary);
+                $('#status').val(empleado.status);
+                $('#modalEmpleado').modal('show');
+            });
+        }
+
+        function eliminarEmpleado(id) {
+            if (confirm('¿Estás seguro de eliminar este empleado?')) {
+                $.ajax({
+                    url: '/Empleados/Delete/' + id,
+                    type: 'DELETE',
+                    success: function () {
+                        cargarEmpleados();
+                    }
+                });
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,8 +1,7 @@
 ﻿@{
     Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
-    ViewData["Title"] = "Empleado";
+    ViewData["Title"] = "Gestión de Empleados";
 }
-
 
 <!DOCTYPE html>
 <html lang="es">
@@ -10,19 +9,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Empleados</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
     <div class="container mt-4">
-        <h2>Gestión de Empleados</h2>
-
-        <!-- Botón para agregar nuevo empleado -->
-        <button class="btn btn-success mb-3" onclick="abrirModalNuevo()">Agregar Nuevo Empleado</button>
+      
 
         <!-- Tabla de empleados -->
         <div class="table-responsive">
-            <table id="tablaEmpleados" class="table table-bordered">
-                <thead>
+            <table id="tablaEmpleados" class="table table-striped table-hover table-bordered align-middle">
+                <thead class="table-dark">
                     <tr>
                         <th>ID</th>
                         <th>Identificación</th>
@@ -41,40 +39,46 @@
             </table>
         </div>
 
-        <!-- Modal para agregar/editar empleados -->
+        <!-- Modal de empleado -->
         <div class="modal fade" id="modalEmpleado" tabindex="-1" aria-labelledby="modalEmpleadoLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalEmpleadoLabel">Nuevo Empleado</h5>
+                    <div class="modal-header bg-primary text-white">
+                        <h5 class="modal-title" id="modalEmpleadoLabel">Agregar/Editar Empleado</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <form id="formEmpleado">
-                            <input type="hidden" id="employeeID">
+                            <input type="hidden" id="employeeID" name="employeeID">
+
                             <div class="mb-3">
                                 <label for="identification" class="form-label">Identificación</label>
-                                <input type="text" id="identification" class="form-control">
+                                <input type="text" class="form-control" id="identification" name="identification" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="name" class="form-label">Nombre</label>
-                                <input type="text" id="name" class="form-control">
+                                <input type="text" class="form-control" id="name" name="name" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="department" class="form-label">Departamento</label>
-                                <input type="text" id="department" class="form-control">
+                                <input type="text" class="form-control" id="department" name="department" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="position" class="form-label">Posición</label>
-                                <input type="text" id="position" class="form-control">
+                                <input type="text" class="form-control" id="position" name="position" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="monthlySalary" class="form-label">Salario Mensual</label>
-                                <input type="number" id="monthlySalary" class="form-control">
+                                <input type="number" class="form-control" id="monthlySalary" name="monthlySalary" required step="0.01">
                             </div>
+
                             <div class="mb-3">
                                 <label for="status" class="form-label">Estado</label>
-                                <select id="status" class="form-select">
+                                <select class="form-select" id="status" name="status" required>
                                     <option value="Activo">Activo</option>
                                     <option value="Inactivo">Inactivo</option>
                                 </select>
@@ -82,13 +86,17 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary" onclick="guardarEmpleado()">Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" onclick="guardarEmpleado()">Guardar Cambios</button>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -108,11 +116,10 @@
                         '<td>' + empleado.hireDate + '</td>' +
                         '<td>' + empleado.department + '</td>' +
                         '<td>' + empleado.position + '</td>' +
-                        '<td>' + empleado.monthlySalary + '</td>' +
-                        '<td>' + empleado.status + '</td>' +
+                        '<td>S/. ' + parseFloat(empleado.monthlySalary).toFixed(2) + '</td>' +
+                        '<td>' + (empleado.status === "Activo" ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">Inactivo</span>') + '</td>' +
                         '<td>' +
-                        '<button class="btn btn-warning" onclick="editarEmpleado(' + empleado.employeeID + ')">Editar</button>' +
-                        '<button class="btn btn-danger" onclick="eliminarEmpleado(' + empleado.employeeID + ')">Eliminar</button>' +
+                        '<button class="btn btn-sm btn-danger" onclick="eliminarEmpleado(' + empleado.employeeID + ')"><i class="fas fa-trash-alt"></i> Eliminar</button>' +
                         '</td>' +
                         '</tr>';
                     tabla.append(row);

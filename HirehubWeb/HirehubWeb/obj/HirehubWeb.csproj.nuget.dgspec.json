@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj": {
+    "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj",
         "projectName": "HirehubWeb",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\HirehubWeb.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

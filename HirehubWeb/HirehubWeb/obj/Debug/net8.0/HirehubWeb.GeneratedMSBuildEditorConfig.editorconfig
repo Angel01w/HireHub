@@ -9,91 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HirehubWeb
 build_property.RootNamespace = HirehubWeb
-build_property.ProjectDir = C:\Users\Dell\source\repos\HirehubWeb\HirehubWeb\
+build_property.ProjectDir = C:\Users\Dell\Desktop\LBTR CASE\HireHub\HirehubWeb\HirehubWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dell\source\repos\HirehubWeb\HirehubWeb
+build_property.MSBuildProjectDirectory = C:\Users\Dell\Desktop\LBTR CASE\HireHub\HirehubWeb\HirehubWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Candidatos/Aplicar.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Candidatos/Aplicar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xBcGxpY2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Candidatos/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Candidatos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Capacitaciones/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Capacitaciones/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FwYWNpdGFjaW9uZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Competencias/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Competencias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0ZW5jaWFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/ConsultaReporte/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/ConsultaReporte/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFSZXBvcnRlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/ConsultaReporte/Index2.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/ConsultaReporte/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFSZXBvcnRlXEluZGV4Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Empleados/Index2.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Empleados/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Home/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Home/Index2.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Home/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Home/Privacy.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Idiomas/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Idiomas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRpb21hc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Login/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Login/Registrar.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Login/Registrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Puestos/Index.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Puestos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Shared/Error.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/_ViewImports.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/_ViewStart.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7qhejc49td
 
-[C:/Users/Dell/source/repos/HirehubWeb/HirehubWeb/Views/Shared/_LayoutPrincipal.cshtml]
+[C:/Users/Dell/Desktop/LBTR CASE/HireHub/HirehubWeb/HirehubWeb/Views/Shared/_LayoutPrincipal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQcmluY2lwYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-243dbg1sdk

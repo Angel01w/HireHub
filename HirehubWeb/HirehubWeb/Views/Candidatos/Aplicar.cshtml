@@ -33,11 +33,12 @@
     <div class="row mb-4">
         <div class="col-sm-12">
             <div class="form-floating">
-                <input disabled type="text" class="form-control required rounded-3" id="desiredPosition" name="desiredPosition" autocomplete="off" value="@Model.Name" placeholder="Posición deseada" required>
+                <input disabled type="text" class="form-control required rounded-3" id="desiredPosition" name="desiredPosition_disabled" autocomplete="off" value="@Model.Name" placeholder="Posición deseada" required>
                 <label for="desiredPosition" class="text-muted">Posición deseada</label>
             </div>
         </div>
     </div>
+
 
     <div class="row mb-4">
         <div class="col-sm-12">
@@ -109,6 +110,13 @@
             return false; // Si la validación falla, no se ejecuta el código de guardado
         }
 
+        // Crear un campo oculto con el valor de desiredPosition
+        var desiredPositionValue = $("#desiredPosition").val();
+        $("<input />").attr("type", "hidden")
+            .attr("name", "desiredPosition")
+            .attr("value", desiredPositionValue)
+            .appendTo("#formCandidato");
+
         var formData = $("#formCandidato").serialize(); // Serializamos los datos del formulario
 
         jQuery.ajax({
@@ -154,6 +162,7 @@
 
         return false; // Prevenir que el formulario realice un submit tradicional
     }
+
 
     // Función de validación personalizada
     function validarFormulario() {

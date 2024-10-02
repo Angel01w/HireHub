@@ -1,0 +1,2593 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HirehubWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HirehubWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\autoFill.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\autoFill.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\buttons.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\buttons.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\colReorder.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\colReorder.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\common.scss",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.material.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.material.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.material.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.material.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.uikit.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.uikit.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\dataTables.uikit.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\dataTables.uikit.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedColumns.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedColumns.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\fixedHeader.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\fixedHeader.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\jquery.dataTables_themeroller.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\jquery.dataTables_themeroller.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\keyTable.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\keyTable.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\mixins.scss",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\responsive.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\responsive.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowGroup.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowGroup.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\rowReorder.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\rowReorder.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\scroller.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\scroller.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.dataTables.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.foundation.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.foundation.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.jqueryui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.semanticui.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\select.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\select.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\css\\semanticui.scss",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\css\\semanticui.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\images\\details_close.png",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\images\\details_close.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\images\\details_open.png",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\images\\details_open.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\DataTables\\swf\\flashExport.swf",
+      "PackagePath": "staticwebassets\\Content\\DataTables\\swf\\flashExport.swf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\Site.css",
+      "PackagePath": "staticwebassets\\Content\\Site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Content\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\css\\main.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\css\\util.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\images\\img-01.png",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\images\\img-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\images\\imgUsuario.png",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\images\\imgUsuario.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\js\\main.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\vendor\\tilt\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\tilt\\tilt.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\ReCaptcha.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\ReCaptcha.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Curl.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\Curl.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\CurlPost.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\CurlPost.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Post.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\Post.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Socket.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\Socket.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\SocketPost.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\SocketPost.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\RequestParameters.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestParameters.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\Response.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\Response.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\ReCaptcha\\autoload.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\autoload.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\phpmailer\\PHPMailerAutoload.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\PHPMailerAutoload.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\phpmailer\\class.phpmailer.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\class.phpmailer.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\phpmailer\\class.pop3.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\class.pop3.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\phpmailer\\class.smtp.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\class.smtp.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\rd-mailform.config.json",
+      "PackagePath": "staticwebassets\\Design\\bat\\rd-mailform.config.json"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\rd-mailform.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\rd-mailform.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\rd-mailform.tpl",
+      "PackagePath": "staticwebassets\\Design\\bat\\rd-mailform.tpl"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\rd-search.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\rd-search.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\bat\\reCaptcha.php",
+      "PackagePath": "staticwebassets\\Design\\bat\\reCaptcha.php"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Design\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\Design\\css\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\css\\style.css",
+      "PackagePath": "staticwebassets\\Design\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Design\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\Linearicons.eot",
+      "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\Linearicons.svg",
+      "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\Linearicons.ttf",
+      "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\Linearicons.woff",
+      "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\lg.eot",
+      "PackagePath": "staticwebassets\\Design\\fonts\\lg.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\lg.svg",
+      "PackagePath": "staticwebassets\\Design\\fonts\\lg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\lg.ttf",
+      "PackagePath": "staticwebassets\\Design\\fonts\\lg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\lg.woff",
+      "PackagePath": "staticwebassets\\Design\\fonts\\lg.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\BreakFast.png",
+      "PackagePath": "staticwebassets\\Design\\images\\BreakFast.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\Cocinero.png",
+      "PackagePath": "staticwebassets\\Design\\images\\Cocinero.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\Dinner.png",
+      "PackagePath": "staticwebassets\\Design\\images\\Dinner.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\LOGIN.png",
+      "PackagePath": "staticwebassets\\Design\\images\\LOGIN.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\Design\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\Luch.png",
+      "PackagePath": "staticwebassets\\Design\\images\\Luch.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\_blank.png",
+      "PackagePath": "staticwebassets\\Design\\images\\_blank.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Design\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\arrow-110x14.png",
+      "PackagePath": "staticwebassets\\Design\\images\\arrow-110x14.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\banner-top-2050x60.jpg",
+      "PackagePath": "staticwebassets\\Design\\images\\banner-top-2050x60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\bg-pattern-boxed.png",
+      "PackagePath": "staticwebassets\\Design\\images\\bg-pattern-boxed.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Design\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\gmap_marker.png",
+      "PackagePath": "staticwebassets\\Design\\images\\gmap_marker.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\gmap_marker_active.png",
+      "PackagePath": "staticwebassets\\Design\\images\\gmap_marker_active.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\home-01-382x375.png",
+      "PackagePath": "staticwebassets\\Design\\images\\home-01-382x375.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\home-02-293x293.png",
+      "PackagePath": "staticwebassets\\Design\\images\\home-02-293x293.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\home-03-461x407.png",
+      "PackagePath": "staticwebassets\\Design\\images\\home-03-461x407.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\home-04-191x191.png",
+      "PackagePath": "staticwebassets\\Design\\images\\home-04-191x191.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\ie8-panel\\warning_bar_0000_us.jpg",
+      "PackagePath": "staticwebassets\\Design\\images\\ie8-panel\\warning_bar_0000_us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Design\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\logo-default-363x100.png",
+      "PackagePath": "staticwebassets\\Design\\images\\logo-default-363x100.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\logo-inverse-363x100.png",
+      "PackagePath": "staticwebassets\\Design\\images\\logo-inverse-363x100.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\preloader.gif",
+      "PackagePath": "staticwebassets\\Design\\images\\preloader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\preloader.png",
+      "PackagePath": "staticwebassets\\Design\\images\\preloader.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\product-01-176x176.png",
+      "PackagePath": "staticwebassets\\Design\\images\\product-01-176x176.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\product-02-176x176.png",
+      "PackagePath": "staticwebassets\\Design\\images\\product-02-176x176.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\product-03-176x176.png",
+      "PackagePath": "staticwebassets\\Design\\images\\product-03-176x176.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\quote-37x29.png",
+      "PackagePath": "staticwebassets\\Design\\images\\quote-37x29.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\shutter-home-01-455x685.png",
+      "PackagePath": "staticwebassets\\Design\\images\\shutter-home-01-455x685.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\shutter-testimonials-01-179x179.png",
+      "PackagePath": "staticwebassets\\Design\\images\\shutter-testimonials-01-179x179.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\shutter-testimonials-02-306x306.png",
+      "PackagePath": "staticwebassets\\Design\\images\\shutter-testimonials-02-306x306.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\slider-01-671x671.png",
+      "PackagePath": "staticwebassets\\Design\\images\\slider-01-671x671.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\slider-03-671x671.png",
+      "PackagePath": "staticwebassets\\Design\\images\\slider-03-671x671.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\slider-04-671x671.png",
+      "PackagePath": "staticwebassets\\Design\\images\\slider-04-671x671.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\testimonials-03-179x179.png",
+      "PackagePath": "staticwebassets\\Design\\images\\testimonials-03-179x179.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\video-play.png",
+      "PackagePath": "staticwebassets\\Design\\images\\video-play.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\vimeo-play.png",
+      "PackagePath": "staticwebassets\\Design\\images\\vimeo-play.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\images\\youtube-play.png",
+      "PackagePath": "staticwebassets\\Design\\images\\youtube-play.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\js\\core.min.js",
+      "PackagePath": "staticwebassets\\Design\\js\\core.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\js\\script.js",
+      "PackagePath": "staticwebassets\\Design\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Candidato\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Candidato\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Capacitaciones\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Capacitaciones\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Competencias\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Competencias\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Idiomas\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Idiomas\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Puestos\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Puestos\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Usuario\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Usuario\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.foundation.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.foundation.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.jqueryui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.semanticui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\autoFill.semanticui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\autoFill.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.colVis.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.colVis.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.flash.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.flash.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.foundation.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.foundation.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.html5.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.html5.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.jqueryui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.print.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.print.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.semanticui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\buttons.semanticui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\buttons.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.autoFill.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.autoFill.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.autoFill.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.autoFill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.buttons.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.colReorder.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.colReorder.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.colReorder.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.colReorder.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.fixedColumns.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.fixedColumns.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.fixedColumns.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.fixedColumns.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.fixedHeader.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.fixedHeader.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.fixedHeader.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.fixedHeader.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.keyTable.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.keyTable.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.keyTable.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.keyTable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.material.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.material.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.material.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.material.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.responsive.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.responsive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.rowGroup.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.rowGroup.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.rowGroup.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.rowGroup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.rowReorder.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.rowReorder.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.rowReorder.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.rowReorder.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.scroller.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.scroller.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.scroller.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.scroller.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.select.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.select.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.uikit.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.uikit.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\dataTables.uikit.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\dataTables.uikit.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.foundation.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.foundation.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.jqueryui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.semanticui.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\DataTables\\responsive.semanticui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\DataTables\\responsive.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\README.md",
+      "PackagePath": "staticwebassets\\Scripts\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\SweetAlert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\SweetAlert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap-confirmation.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap-confirmation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper-utils.js",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper-utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper-utils.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper-utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper-utils.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper-utils.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper-utils.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper-utils.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper.js",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\esm\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\esm\\popper.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\index.d.ts",
+      "PackagePath": "staticwebassets\\Scripts\\index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\index.js.flow",
+      "PackagePath": "staticwebassets\\Scripts\\index.js.flow"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.intellisense.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery-3.3.1.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.3.1.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\loadingoverlay.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\loadingoverlay.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\modernizr-2.8.3.js",
+      "PackagePath": "staticwebassets\\Scripts\\modernizr-2.8.3.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper-utils.js",
+      "PackagePath": "staticwebassets\\Scripts\\popper-utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper-utils.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\popper-utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper-utils.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\popper-utils.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper-utils.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\popper-utils.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper.js",
+      "PackagePath": "staticwebassets\\Scripts\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\popper.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\popper.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\index.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\methods\\defaults.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\methods\\defaults.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\methods\\destroy.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\methods\\destroy.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\methods\\disableEventListeners.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\methods\\disableEventListeners.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\methods\\enableEventListeners.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\methods\\enableEventListeners.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\methods\\placements.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\methods\\placements.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\methods\\update.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\methods\\update.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\applyStyle.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\applyStyle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\arrow.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\arrow.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\computeStyle.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\computeStyle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\flip.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\flip.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\hide.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\hide.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\index.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\inner.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\inner.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\keepTogether.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\keepTogether.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\offset.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\offset.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\preventOverflow.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\preventOverflow.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\modifiers\\shift.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\modifiers\\shift.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\clockwise.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\clockwise.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\computeAutoPlacement.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\computeAutoPlacement.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\debounce.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\debounce.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\find.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\find.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\findCommonOffsetParent.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\findCommonOffsetParent.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\findIndex.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\findIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getBordersSize.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getBordersSize.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getBoundaries.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getBoundaries.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getBoundingClientRect.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getBoundingClientRect.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getClientRect.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getClientRect.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getFixedPositionOffsetParent.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getFixedPositionOffsetParent.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getOffsetParent.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getOffsetParent.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getOffsetRect.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getOffsetRect.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getOffsetRectRelativeToArbitraryNode.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getOffsetRectRelativeToArbitraryNode.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getOppositePlacement.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getOppositePlacement.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getOppositeVariation.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getOppositeVariation.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getOuterSizes.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getOuterSizes.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getParentNode.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getParentNode.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getPopperOffsets.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getPopperOffsets.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getReferenceNode.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getReferenceNode.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getReferenceOffsets.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getReferenceOffsets.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getRoot.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getRoot.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getRoundedOffsets.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getRoundedOffsets.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getScroll.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getScrollParent.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getScrollParent.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getStyleComputedProperty.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getStyleComputedProperty.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getSupportedPropertyName.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getSupportedPropertyName.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getViewportOffsetRectRelativeToArtbitraryNode.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getViewportOffsetRectRelativeToArtbitraryNode.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getWindow.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getWindow.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\getWindowSizes.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\getWindowSizes.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\includeScroll.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\includeScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\index.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isBrowser.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isBrowser.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isFixed.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isFixed.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isFunction.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isFunction.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isIE.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isIE.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isModifierEnabled.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isModifierEnabled.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isModifierRequired.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isModifierRequired.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isNumeric.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isNumeric.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\isOffsetContainer.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\isOffsetContainer.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\removeEventListeners.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\removeEventListeners.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\runModifiers.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\runModifiers.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\setAttributes.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\setAttributes.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\setStyles.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\setStyles.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\src\\utils\\setupEventListeners.js",
+      "PackagePath": "staticwebassets\\Scripts\\src\\utils\\setupEventListeners.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper-utils.js",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper-utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper-utils.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper-utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper-utils.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper-utils.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper-utils.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper-utils.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper.js",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper.js.flow",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper.js.flow"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\Scripts\\umd\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\umd\\popper.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\HirehubWeb\\HirehubWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HirehubWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HirehubWeb.props",
+      "PackagePath": "build\\HirehubWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HirehubWeb.props",
+      "PackagePath": "buildMultiTargeting\\HirehubWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HirehubWeb.props",
+      "PackagePath": "buildTransitive\\HirehubWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

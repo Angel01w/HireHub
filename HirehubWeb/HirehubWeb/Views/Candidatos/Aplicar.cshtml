@@ -1,0 +1,243 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Candidatos";
+}
+@model Position
+<!-- Cargar un script personalizado -->
+
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestion</a></li>
+    <li class="breadcrumb-item active">Candidatos</li>
+</ol>
+
+
+<form id="formCandidato" onsubmit="return Guardar()">
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <input type="text" class="form-control required rounded-3" id="identification" name="identification" autocomplete="off" placeholder="Identificación" required>
+                <label for="identification" class="text-muted">Identificación (Cédula/Pasaporte)</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <input type="text" class="form-control required rounded-3" id="name" name="name" autocomplete="off" placeholder="Nombre completo" required>
+                <label for="name" class="text-muted">Nombre completo</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <input disabled type="text" class="form-control required rounded-3" id="desiredPosition" name="desiredPosition" autocomplete="off" value="@Model.Name" placeholder="Posición deseada" required>
+                <label for="desiredPosition" class="text-muted">Posición deseada</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <input type="text" class="form-control required rounded-3" id="department" name="department" autocomplete="off" placeholder="Departamento" required>
+                <label for="department" class="text-muted">Departamento</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <input type="number" class="form-control required rounded-3" id="desiredSalary" name="desiredSalary" autocomplete="off" placeholder="Salario deseado" step="0.01" required>
+                <label for="desiredSalary" class="text-muted">Salario deseado</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <textarea class="form-control required rounded-3" id="keyCompetencies" name="keyCompetencies" placeholder="Competencias clave" style="height: 100px" required></textarea>
+                <label for="keyCompetencies" class="text-muted">Competencias clave</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <textarea class="form-control required rounded-3" id="keyTrainings" name="keyTrainings" placeholder="Capacitaciones clave" style="height: 100px" required></textarea>
+                <label for="keyTrainings" class="text-muted">Capacitaciones clave</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <textarea class="form-control required rounded-3" id="workExperience" name="workExperience" placeholder="Experiencia laboral" style="height: 100px" required></textarea>
+                <label for="workExperience" class="text-muted">Experiencia laboral</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-sm-12">
+            <div class="form-floating">
+                <input type="text" class="form-control rounded-3" id="recommendedBy" name="recommendedBy" autocomplete="off" placeholder="Recomendado por (opcional)">
+                <label for="recommendedBy" class="text-muted">Recomendado por (opcional)</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botón de envío -->
+    <div class="row mb-4">
+        <div class="col-sm-12 text-end">
+            <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+        </div>
+    </div>
+</form>
+
+<!-- Validación de formulario y guardar usando AJAX -->
+<script>
+    function Guardar() {
+        // Primero validamos los campos del formulario
+        if (!validarFormulario()) {
+            return false; // Si la validación falla, no se ejecuta el código de guardado
+        }
+
+        var formData = $("#formCandidato").serialize(); // Serializamos los datos del formulario
+
+        jQuery.ajax({
+            url: "/Candidatos/Guardar",  // URL que apunta al método en tu controlador
+            type: "POST",
+            data: formData, // Enviamos los datos serializados
+            success: function (data) {
+                if (data.resultado) {
+                    // Mostrar SweetAlert2 de éxito
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Guardado!',
+                        text: 'El candidato se ha guardado exitosamente.',
+                        confirmButtonText: 'Aceptar'
+                    }).then(() => {
+                        // Aquí puedes redirigir o realizar alguna acción
+                        window.location.href = "/Home/Index"; // Redirigir a la lista de candidatos
+                    });
+                } else {
+                    // Mostrar SweetAlert2 de error
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error!',
+                        text: 'No se pudo guardar el candidato.',
+                        confirmButtonText: 'Aceptar'
+                    });
+                }
+            },
+            error: function (error) {
+                console.log(error);
+                // Mostrar SweetAlert2 en caso de error en la solicitud
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: 'Hubo un problema al enviar la solicitud.',
+                    confirmButtonText: 'Aceptar'
+                });
+            },
+            beforeSend: function () {
+                // Aquí puedes mostrar un spinner o algún indicativo de carga
+            }
+        });
+
+        return false; // Prevenir que el formulario realice un submit tradicional
+    }
+
+    // Función de validación personalizada
+    function validarFormulario() {
+        var isValid = true;
+
+        // Validar Identificación
+        if ($("#identification").val().trim() === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Advertencia!',
+                text: 'Por favor, ingrese la Identificación (Cédula/Pasaporte).',
+                confirmButtonText: 'Aceptar'
+            });
+            isValid = false;
+        }
+
+        // Validar Nombre completo
+        if ($("#name").val().trim() === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Advertencia!',
+                text: 'Por favor, ingrese el Nombre completo.',
+                confirmButtonText: 'Aceptar'
+            });
+            isValid = false;
+        }
+
+        // Validar Departamento
+        if ($("#department").val().trim() === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Advertencia!',
+                text: 'Por favor, ingrese el Departamento.',
+                confirmButtonText: 'Aceptar'
+            });
+            isValid = false;
+        }
+
+        // Validar Salario deseado
+        if ($("#desiredSalary").val().trim() === "" || parseFloat($("#desiredSalary").val()) <= 0) {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Advertencia!',
+                text: 'Por favor, ingrese un Salario deseado válido.',
+                confirmButtonText: 'Aceptar'
+            });
+            isValid = false;
+        }
+
+        // Validar Competencias clave
+        if ($("#keyCompetencies").val().trim() === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Advertencia!',
+                text: 'Por favor, ingrese las Competencias clave.',
+                confirmButtonText: 'Aceptar'
+            });
+            isValid = false;
+        }
+
+        // Validar Capacitaciones clave
+        if ($("#keyTrainings").val().trim() === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Advertencia!',
+                text: 'Por favor, ingrese las Capacitaciones clave.',
+                confirmButtonText: 'Aceptar'
+            });
+            isValid = false;
+        }
+
+        // Validar Experiencia laboral
+        if ($("#workExperience").val().trim() === "") {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Advertencia!',
+                text: 'Por favor, ingrese la Experiencia laboral.',
+                confirmButtonText: 'Aceptar'
+            });
+            isValid = false;
+        }
+
+        // Si todas las validaciones pasan, el formulario es válido
+        return isValid;
+    }
+</script>
+

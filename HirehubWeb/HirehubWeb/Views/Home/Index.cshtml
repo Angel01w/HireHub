@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Puestos de Trabajo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold">Puestos de Trabajo Disponibles</h1>
+            <p class="lead text-muted">Descubre las oportunidades laborales y encuentra el puesto que mejor se ajuste a tu perfil.</p>
+        </div>
+
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <!-- Recorre el modelo que contiene la lista de puestos -->
+            @foreach (var puesto in Model)
+            {
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100 shadow-lg border-0">
+                        <!-- Imagen del puesto -->
+                        <img class="card-img-top" src="https://www.gestion.org/wp-content/uploads/2011/05/hot234.jpg" alt="Imagen del puesto @puesto.Name" style="height: 200px; object-fit: cover;" />
+
+                        <!-- Cuerpo de la tarjeta -->
+                        <div class="card-body p-4 text-center">
+                            <!-- Nombre del puesto -->
+                            <h5 class="fw-bold mb-3">@puesto.Name</h5>
+
+                            <!-- Nivel de riesgo del puesto -->
+                            <div class="text-muted mb-2">
+                                <span class="badge bg-warning text-dark">Nivel de riesgo: @puesto.RiskLevel</span>
+                            </div>
+
+                            <!-- Salarios formateados -->
+                            <div class="fs-5">
+                                <span class="text-success">Salario mínimo: S/. @puesto.MinimumSalary?.ToString("N2", System.Globalization.CultureInfo.GetCultureInfo("es-ES"))</span>
+                                <br />
+                                <span class="text-danger">Salario máximo: S/. @puesto.MaximumSalary?.ToString("N2", System.Globalization.CultureInfo.GetCultureInfo("es-ES"))</span>
+                            </div>
+                        </div>
+
+                        <!-- Pie de la tarjeta -->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <!-- Botón para aplicar al puesto -->
+                                <a href="@Url.Action("Aplicar", "Candidatos", new { id = puesto.PositionID })" class="btn btn-success w-100">
+                                    <i class="fas fa-check-circle"></i> Aplicar Ahora
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

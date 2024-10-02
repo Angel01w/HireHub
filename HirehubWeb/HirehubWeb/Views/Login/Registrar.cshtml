@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Registro de Usuario";
+}
+
+<script src="~/javascripts/Usuario/home.js"></script>
+
+<!-- Breadcrumb for navigation -->
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestión</a></li>
+    <li class="breadcrumb-item active">Registro de Usuario</li>
+</ol>
+
+<!-- Main card for form -->
+<div class="card mb-4">
+    <div class="card-header" style="background-color: #20c997; color: white;">
+        <i class="fas fa-user-plus me-1"></i> Registro de Nuevo Usuario
+    </div>
+    <div class="card-body">
+        <form id="registerUserForm" method="post">
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    <!-- Username input -->
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Usuario" required>
+                        <label for="username" class="text-muted">Usuario</label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <!-- Email input -->
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electrónico" required>
+                        <label for="email" class="text-muted">Correo Electrónico</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    <!-- Password input -->
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
+                        <label for="password" class="text-muted">Contraseña</label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <!-- Confirm Password input -->
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirmar Contraseña" required>
+                        <label for="confirmPassword" class="text-muted">Confirmar Contraseña</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-flex justify-content-end">
+                <button onclick="Guardar()" class="btn btn-success btn-lg">
+                    <i class="fas fa-save"></i> Registrar Usuario
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

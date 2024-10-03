@@ -129,6 +129,41 @@ namespace HirehubWeb.Controllers
 
 
 
+        [HttpPost]
+        public async Task<JsonResult> GuardarAsync(Employee employee)
+        {
+            try
+            {
+                // Asignar el estado correctamente
+
+                Result<bool> result;
+
+                if (employee.EmployeeID == 0)
+                {
+                    // Si es un nuevo registro
+                    result = await _empleadossrepositorio.Add(employee);
+                }
+                else
+                {
+                    // Si es una actualización de un registro existente
+                    result = await _empleadossrepositorio.Update(employee);
+                }
+
+                // Verificar el resultado
+                if (result.Success)
+                {
+                    return Json(new { resultado = true });
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje = result.ErrorMessage });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { resultado = false, mensaje = ex.Message });
+            }
+        }
 
         // Obtener un empleado por ID
         [HttpGet("{id}")]

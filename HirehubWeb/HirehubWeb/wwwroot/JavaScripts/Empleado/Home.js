@@ -100,110 +100,8 @@
         "pagingType": "full_numbers" // Estilo de paginación
     });
 
-    // Abrir el Formulario
-    window.abrirModal = function (json) {
-        // Crear todas las opciones como un bloque de HTML
-        var opciones = `
-        <option value="">Seleccionar</option>
-        <option value="1">Activo</option>
-        <option value="0">No Activo</option>
-    `;
-
-        // Insertar todas las opciones de una vez
-        $("#status").html(opciones);
-        $("#languageID").val(0);
-        $("#name").val("");
-        $("#status").val("");
-
-        if (json != null) {
-            $("#languageID").val(json.languageID); // Asegúrate de usar los nombres correctos
-            $("#name").val(json.name);
-            $("#status").val(json.status == "A" ? 1 : 0);
-        }
-
-        $('#FormModal').modal('show');
-    }
 
 
-    // Función de validación de los campos del formulario
-    function validarFormulario() {
-        var isValid = true;
-        var name = $("#name").val().trim();
-        // Validar que la descripción no esté vacía
-        if (name === "") {
-            Swal.fire({
-                icon: 'error',
-                title: 'Error!',
-                text: 'El campo Nombre es obligatorio.',
-                confirmButtonText: 'Aceptar'
-            });
-            return false;
-        }
-
-        if ($("#status").length && $("#status").val().trim() === "") {
-            Swal.fire({
-                icon: 'error',
-                title: 'Error!',
-                text: 'Debe seleccionar un estado.',
-                confirmButtonText: 'Aceptar'
-            });
-            isValid = false;
-            return isValid;
-        }
-
-
-        return isValid; // Si todo es válido, devolver true
-    }
-
-    // Guardar Registro usando serialize
-    window.Guardar = function () {
-        // Primero validamos los campos del formulario
-        if (!validarFormulario()) {
-            return; // Si la validación falla, no se ejecuta el código de guardado
-        }
-
-        var formData = $("#formNivel").serialize(); // Serializamos los datos del formulario
-
-        jQuery.ajax({
-            url: "/Idiomas/Guardar",
-            type: "POST",
-            data: formData, // Enviamos los datos serializados
-            success: function (data) {
-                if (data.resultado) {
-                    table.ajax.reload(); // Recarga la tabla DataTable
-                    $('#FormModal').modal('hide'); // Cierra el modal
-                    // Mostrar SweetAlert2 de éxito
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Guardado!',
-                        text: 'Cambios se guardaron exitosamente.',
-                        confirmButtonText: 'Aceptar'
-                    });
-                } else {
-                    // Mostrar SweetAlert2 de error
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Error!',
-                        text: 'No se pudo guardar los cambios.',
-                        confirmButtonText: 'Aceptar'
-                    });
-                }
-            },
-            error: function (error) {
-                console.log(error);
-                // Mostrar SweetAlert2 en caso de error en la solicitud
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error!',
-                    text: 'Hubo un problema al enviar la solicitud.',
-                    confirmButtonText: 'Aceptar'
-                });
-            },
-            beforeSend: function () {
-                // Mostrar el spinner si es necesario
-            }
-        });
-    }
 
 
     // Abrir Formulario editar
@@ -267,4 +165,162 @@
         });
     });
 
+
+
+
+
+
+
+
+
 });
+
+
+// Abrir el Formulario
+// Función para abrir el modal para agregar o editar un empleado
+function abrirModal(id) {
+    if (id) {
+        // Si existe un ID, obtener los datos del empleado y llenar el formulario
+        $.get('/Empleados/GetEmpleado/' + id, function (data) {
+            $('#employeeID').val(data.employeeID);
+            $('#identification').val(data.identification);
+            $('#name').val(data.name);
+            $('#department').val(data.department);
+            $('#position').val(data.position);
+            $('#monthlySalary').val(data.monthlySalary);
+            $('#status').val(data.status);
+            $('#FormModal').modal('show');
+        });
+    } else {
+        // Si no hay ID, limpiar el formulario para agregar un nuevo empleado
+        $('#formEmpleado')[0].reset();
+        $('#employeeID').val('');
+        $('#FormModal').modal('show');
+    }
+}
+
+
+// Función de validación de los campos del formulario
+function validarFormulario() {
+    var isValid = true;
+
+    // Validar Identificación
+    if ($("#identification").val().trim() === "") {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'El campo Identificación es obligatorio.',
+            confirmButtonText: 'Aceptar'
+        });
+        return false;
+    }
+
+    // Validar Nombre
+    if ($("#name").val().trim() === "") {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'El campo Nombre es obligatorio.',
+            confirmButtonText: 'Aceptar'
+        });
+        return false;
+    }
+
+    // Validar Departamento
+    if ($("#department").val().trim() === "") {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'El campo Departamento es obligatorio.',
+            confirmButtonText: 'Aceptar'
+        });
+        return false;
+    }
+
+    // Validar Posición
+    if ($("#position").val().trim() === "") {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'El campo Posición es obligatorio.',
+            confirmButtonText: 'Aceptar'
+        });
+        return false;
+    }
+
+    // Validar Salario Mensual
+    if ($("#monthlySalary").val().trim() === "" || parseFloat($("#monthlySalary").val()) <= 0) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'El campo Salario Mensual es obligatorio y debe ser un número mayor que 0.',
+            confirmButtonText: 'Aceptar'
+        });
+        return false;
+    }
+
+    // Validar Estado
+    if ($("#status").val().trim() === "") {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'Debe seleccionar un estado.',
+            confirmButtonText: 'Aceptar'
+        });
+        return false;
+    }
+
+    return isValid; // Si todo es válido, devolver true
+}
+
+// Función para guardar el empleado (crear o actualizar)
+function GuardarEmpleado() {
+    // Primero validamos los campos del formulario
+    if (!validarFormulario()) {
+        return; // Si la validación falla, no se ejecuta el código de guardado
+    }
+
+    var formData = $("#formEmpleado").serialize(); // Serializamos los datos del formulario
+
+    var id = $('#employeeID').val(); // Verificamos si estamos creando o editando
+    var url = id ? '/Empleados/Actualizar/' + id : '/Empleados/Crear'; // Cambia según la operación
+    var tipo = id ? 'PUT' : 'POST'; // Método HTTP para actualizar o crear
+
+    jQuery.ajax({
+        url: url,
+        type: tipo,
+        data: formData, // Enviamos los datos serializados
+        success: function (data) {
+            if (data.resultado) {
+                $('#FormModal').modal('hide'); // Cierra el modal
+                // Recarga la tabla o actualiza la tabla de empleados
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Guardado!',
+                    text: 'El empleado se ha guardado exitosamente.',
+                    confirmButtonText: 'Aceptar'
+                }).then(() => {
+                    location.reload(); // Recarga la página o actualiza la tabla
+                });
+            } else {
+                // Mostrar SweetAlert2 de error
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: 'No se pudo guardar el empleado.',
+                    confirmButtonText: 'Aceptar'
+                });
+            }
+        },
+        error: function (error) {
+            console.log(error);
+            // Mostrar SweetAlert2 en caso de error en la solicitud
+            Swal.fire({
+                icon: 'error',
+                title: 'Error!',
+                text: 'Hubo un problema al enviar la solicitud.',
+                confirmButtonText: 'Aceptar'
+            });
+        }
+    });
+}

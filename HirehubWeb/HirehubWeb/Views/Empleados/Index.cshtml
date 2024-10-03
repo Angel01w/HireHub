@@ -7,7 +7,7 @@
 <script src="~/javascripts/Empleado/home.js"></script>
 
 <ol class="breadcrumb mb-4 mt-4">
-    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestion</a></li>
+    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestión</a></li>
     <li class="breadcrumb-item active">Empleados</li>
 </ol>
 
@@ -64,18 +64,55 @@
             <!-- Sombra y bordes redondeados -->
             <div class="modal-header bg-success text-white rounded-top">
                 <!-- Fondo verde y borde redondeado superior -->
-                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión Nuevo Empleado</h5> <!-- Título en negrita -->
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión de Empleado</h5> <!-- Título en negrita -->
                 <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Botón de cierre -->
             </div>
             <div class="modal-body px-4 py-3">
                 <!-- Espaciado interno amplio -->
-                <form id="formNivel">
-                    <input id="competencyID" name="competencyID" type="hidden" />
+                <form id="formEmpleado">
+                    <input id="employeeID" name="employeeID" type="hidden" />
+
                     <div class="row mb-4">
                         <div class="col-sm-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control required rounded-3" id="description" name="description" autocomplete="off" placeholder="Descripción">
-                                <label for="txtdescripcion" class="text-muted">Descripción</label>
+                                <input type="text" class="form-control required rounded-3" id="identification" name="identification" autocomplete="off" placeholder="Identificación">
+                                <label for="identification" class="text-muted">Identificación (Cédula/Pasaporte)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control required rounded-3" id="name" name="name" autocomplete="off" placeholder="Nombre Completo">
+                                <label for="name" class="text-muted">Nombre Completo</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control required rounded-3" id="department" name="department" autocomplete="off" placeholder="Departamento">
+                                <label for="department" class="text-muted">Departamento</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control required rounded-3" id="position" name="position" autocomplete="off" placeholder="Posición">
+                                <label for="position" class="text-muted">Posición</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="number" class="form-control required rounded-3" id="monthlySalary" name="monthlySalary" autocomplete="off" placeholder="Salario Mensual" step="0.01">
+                                <label for="monthlySalary" class="text-muted">Salario Mensual</label>
                             </div>
                         </div>
                     </div>
@@ -84,15 +121,16 @@
                         <div class="col-sm-12">
                             <div class="form-floating">
                                 <select id="status" class="form-select rounded-3" name="status">
-                                    <option value="1">Activo</option>
-                                    <option value="0">No Activo</option>
+                                    <option value="Activo">Activo</option>
+                                    <option value="Inactivo">Inactivo</option>
                                 </select>
-                                <label for="cboEstado" class="text-muted">Estado</label>
+                                <label for="status" class="text-muted">Estado</label>
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
+
             <div class="modal-footer d-flex justify-content-between">
                 <!-- Botones separados y centrados -->
                 <button type="button" class="btn btn-danger btn-lg px-4" data-bs-dismiss="modal">Cerrar</button>
@@ -101,3 +139,4 @@
         </div>
     </div>
 </div>
+

@@ -5,7 +5,7 @@
         "processing": true,
         "serverSide": true,
         "ajax": {
-            url: "/Empleado/Data",
+            url: "/Competencias/Data",
             type: 'POST',
             headers: {
                 'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()

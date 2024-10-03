@@ -29,11 +29,7 @@
                 "data": null,
                 "render": function (data, type, row, meta) {
                     return $("<div>").addClass("d-grid gap-2 d-md-flex justify-content-md-start") // Botones se acomodan en pantallas móviles
-                        .append(
-                            $("<button>").addClass("btn btn-primary btn-editar btn-sm me-md-2 d-block d-md-inline-block") // Botón "editar"
-                                .append($("<i>").addClass("fas fa-pen"))
-                                .attr({ "data-informacion": JSON.stringify(row) }) // Atributo data-informacion para editar
-                        )
+                      
                         .append(
                             $("<button>").addClass("btn btn-danger btn-eliminar btn-sm d-block d-md-inline-block") // Botón "eliminar"
                                 .append($("<i>").addClass("fas fa-trash"))
@@ -68,7 +64,7 @@
             {
                 "name": "Status", "data": "status", "targets": 7, // Columna para Estado
                 "render": function (data) {
-                    return data === "A" ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">No Activo</span>';
+                    return data === "Activo" ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">No Activo</span>';
                 }
             }
         ],
@@ -274,7 +270,7 @@ function validarFormulario() {
 }
 
 // Función para guardar el empleado (crear o actualizar)
-function GuardarEmpleado() {
+function Guardar() {
     // Primero validamos los campos del formulario
     if (!validarFormulario()) {
         return; // Si la validación falla, no se ejecuta el código de guardado
@@ -283,7 +279,7 @@ function GuardarEmpleado() {
     var formData = $("#formEmpleado").serialize(); // Serializamos los datos del formulario
 
     var id = $('#employeeID').val(); // Verificamos si estamos creando o editando
-    var url = id ? '/Empleados/Actualizar/' + id : '/Empleados/Crear'; // Cambia según la operación
+    var url = id ? '/Empleados/Guardar/' + id : '/Empleados/Guardar'; // Cambia según la operación
     var tipo = id ? 'PUT' : 'POST'; // Método HTTP para actualizar o crear
 
     jQuery.ajax({

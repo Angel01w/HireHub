@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KKhFvPFWJOaSpbcqjxeTh+BwE9p9L+dGajC8jUc1vck=",
+  "Hash": "PV0O5qSGvznzTu9YLrU7D2D0dyNw5X3QryNODcoBpY8=",
   "Source": "HirehubWeb",
   "BasePath": "_content/HirehubWeb",
   "Mode": "Default",
@@ -4102,6 +4102,25 @@
       "OriginalItemSpec": "wwwroot\\Design\\bat\\ReCaptcha\\Response.php"
     },
     {
+      "Identity": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Candidato\\Home.js",
+      "SourceId": "HirehubWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\",
+      "BasePath": "_content/HirehubWeb",
+      "RelativePath": "Design/Candidato/Home.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\Candidato\\Home.js"
+    },
+    {
       "Identity": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\css\\bootstrap.css",
       "SourceId": "HirehubWeb",
       "SourceType": "Discovered",
@@ -7387,6 +7406,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\JavaScripts\\Competencias\\Home.js"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Empleado\\Home.js",
+      "SourceId": "HirehubWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\",
+      "BasePath": "_content/HirehubWeb",
+      "RelativePath": "JavaScripts/Empleado/Home.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JavaScripts\\Empleado\\Home.js"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Idiomas\\Home.js",

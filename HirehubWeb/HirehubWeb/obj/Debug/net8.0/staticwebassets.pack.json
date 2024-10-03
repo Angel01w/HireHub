@@ -777,6 +777,10 @@
       "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Candidato\\Home.js",
+      "PackagePath": "staticwebassets\\Design\\Candidato\\Home.js"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\Design\\Usuarios\\css\\all.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\css\\all.min.css"
     },
@@ -1539,6 +1543,10 @@
     {
       "Id": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Competencias\\Home.js",
       "PackagePath": "staticwebassets\\JavaScripts\\Competencias\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Empleado\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Empleado\\Home.js"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Idiomas\\Home.js",

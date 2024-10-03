@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HirehubWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c76b8c22e5037880d3ee1859aea2268fa9fa0b19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+501ff7f543d6d960df7595266c115b0dbf4bd1d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("HirehubWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HirehubWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

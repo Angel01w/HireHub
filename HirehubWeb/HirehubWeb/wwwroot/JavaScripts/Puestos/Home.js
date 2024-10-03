@@ -132,8 +132,12 @@
     // Función de validación de los campos del formulario
     function validarFormulario() {
         var isValid = true;
+
         var name = $("#name").val().trim();
-        // Validar que la descripción no esté vacía
+        var minSalary = parseFloat($("#minimumSalary").val());
+        var maxSalary = parseFloat($("#maximumSalary").val());
+
+        // Validar que el campo nombre no esté vacío
         if (name === "") {
             Swal.fire({
                 icon: 'error',
@@ -144,6 +148,41 @@
             return false;
         }
 
+        // Validar que el salario mínimo no sea mayor que el salario máximo
+        if (!isNaN(minSalary) && !isNaN(maxSalary)) {
+            if (minSalary > maxSalary) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: 'El salario mínimo no puede ser mayor que el salario máximo.',
+                    confirmButtonText: 'Aceptar'
+                });
+                return false;
+            }
+        } else {
+            // Validar que los salarios sean números
+            if (isNaN(minSalary)) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: 'El salario mínimo debe ser un número válido.',
+                    confirmButtonText: 'Aceptar'
+                });
+                return false;
+            }
+
+            if (isNaN(maxSalary)) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: 'El salario máximo debe ser un número válido.',
+                    confirmButtonText: 'Aceptar'
+                });
+                return false;
+            }
+        }
+
+        // Validar que el estado esté seleccionado (opcional, si existe el campo de estado)
         if ($("#status").length && $("#status").val().trim() === "") {
             Swal.fire({
                 icon: 'error',
@@ -152,12 +191,11 @@
                 confirmButtonText: 'Aceptar'
             });
             isValid = false;
-            return isValid;
         }
-
 
         return isValid; // Si todo es válido, devolver true
     }
+
 
     // Guardar Registro usando serialize
     window.Guardar = function () {

@@ -1,6 +1,5 @@
 ﻿$(document).ready(function () {
-
-    // Mostrar Listado de Campus
+    // Mostrar Listado de Empleados
     var table = $('#tabla').DataTable({
         "processing": true,
         "serverSide": true,
@@ -14,33 +13,30 @@
                 // Agrega parámetros personalizados si es necesario
             },
             beforeSend: function () {
-                // Mostrar el spinner antes de cargar los datos
                 $('#loading-spinner').removeClass('d-none');
             },
             complete: function () {
-                // Ocultar el spinner cuando los datos estén listos
                 $('#loading-spinner').addClass('d-none');
             }
         },
-        "responsive": true, // Hace la tabla responsive
+        "responsive": true,
         "columnDefs": [
             {
-                "targets": -1, // Ultima columna para botones
+                "targets": -1,
                 "data": null,
                 "render": function (data, type, row, meta) {
-                    return $("<div>").addClass("d-grid gap-2 d-md-flex justify-content-md-start") // Botones se acomodan en pantallas móviles
-                      
+                    return $("<div>").addClass("d-grid gap-2 d-md-flex justify-content-md-start")
                         .append(
-                            $("<button>").addClass("btn btn-danger btn-eliminar btn-sm d-block d-md-inline-block") // Botón "eliminar"
+                            $("<button>").addClass("btn btn-danger btn-eliminar btn-sm d-block d-md-inline-block")
                                 .append($("<i>").addClass("fas fa-trash"))
-                                .attr({ "data-informacion": JSON.stringify(row) }) // Atributo data-informacion para eliminar
+                                .attr({ "data-informacion": JSON.stringify(row) })
                         )[0].outerHTML;
                 },
-                "sortable": false // Deshabilita ordenación en esta columna
+                "sortable": false
             },
-            { "name": "EmployeeID", "data": "employeeID", "targets": 0, "visible": true }, // Columna para IdTipoUsuarios
-            { "name": "Identification", "data": "identification", "targets": 1 }, // Columna para Descripción
-            { "name": "Name", "data": "name", "targets": 2 }, // Columna para Descripción
+            { "name": "EmployeeID", "data": "employeeID", "targets": 0 },
+            { "name": "Identification", "data": "identification", "targets": 1 },
+            { "name": "Name", "data": "name", "targets": 2 },
             {
                 "name": "HireDate",
                 "data": "hireDate",
@@ -49,9 +45,9 @@
                     const date = new Date(data);
                     return date.toLocaleDateString('es-ES');
                 }
-            }, 
-            { "name": "Department", "data": "department", "targets": 4 }, // Columna para Descripción
-            { "name": "Position", "data": "position", "targets": 5 }, // Columna para Descripción
+            },
+            { "name": "Department", "data": "department", "targets": 4 },
+            { "name": "Position", "data": "position", "targets": 5 },
             {
                 "name": "MonthlySalary",
                 "data": "monthlySalary",
@@ -59,16 +55,15 @@
                 "render": function (data) {
                     return parseFloat(data).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
                 }
-            }, 
-
+            },
             {
-                "name": "Status", "data": "status", "targets": 7, // Columna para Estado
+                "name": "Status", "data": "status", "targets": 7,
                 "render": function (data) {
                     return data === "Activo" ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">No Activo</span>';
                 }
             }
         ],
-        "order": [[0, "desc"]], // Ordenar por la primera columna (IdTipoUsuarios)
+        "order": [[0, "desc"]],
         "language": {
             "processing": "Procesando...",
             "lengthMenu": "Mostrar _MENU_ registros",
@@ -93,27 +88,21 @@
         "dom": '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
             '<"row"<"col-sm-12"tr>>' +
             '<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
-        "pagingType": "full_numbers" // Estilo de paginación
+        "pagingType": "full_numbers"
     });
 
-
-
-
-
-    // Abrir Formulario editar
+    // Abrir el Formulario
     $(document).on('click', '.btn-editar', function (event) {
-        var json = $(this).attr("data-informacion"); // Corregido a .attr() para obtener el valor
-        var rowData = JSON.parse(json); // Convertimos el JSON a objeto
-        $("#languageID").val(rowData.languageID); // Asigna el ID al campo oculto
-
-        abrirModal(rowData); // Llama a la función para abrir el modal con los datos
+        var json = $(this).attr("data-informacion");
+        var rowData = JSON.parse(json);
+        $("#languageID").val(rowData.languageID);
+        abrirModal(rowData);
     });
 
     // Eliminar Registro
-
     $(document).on('click', '.btn-eliminar', function (event) {
-        var json = $(this).attr("data-informacion"); // Obtiene la información como string JSON
-        var dataObj = JSON.parse(json); // Convierte el string JSON en un objeto JavaScript
+        var json = $(this).attr("data-informacion");
+        var dataObj = JSON.parse(json);
 
         Swal.fire({
             title: '¿Estás seguro?',
@@ -128,14 +117,14 @@
                 jQuery.ajax({
                     url: "/Empleados/Eliminar",
                     type: "POST",
-                    data: JSON.stringify(dataObj), // Enviamos el modelo completo
+                    data: JSON.stringify(dataObj),
                     contentType: "application/json; charset=utf-8",
                     success: function (data) {
                         if (data.resultado) {
-                            table.ajax.reload(); // Recarga la tabla DataTable
+                            table.ajax.reload();
                             Swal.fire(
                                 'Eliminado!',
-                                'El usuario ha sido eliminado.',
+                                'El empleado ha sido eliminado.',
                                 'success'
                             );
                         } else {
@@ -160,23 +149,11 @@
             }
         });
     });
-
-
-
-
-
-
-
-
-
 });
 
-
 // Abrir el Formulario
-// Función para abrir el modal para agregar o editar un empleado
 function abrirModal(id) {
     if (id) {
-        // Si existe un ID, obtener los datos del empleado y llenar el formulario
         $.get('/Empleados/GetEmpleado/' + id, function (data) {
             $('#employeeID').val(data.employeeID);
             $('#identification').val(data.identification);
@@ -188,24 +165,23 @@ function abrirModal(id) {
             $('#FormModal').modal('show');
         });
     } else {
-        // Si no hay ID, limpiar el formulario para agregar un nuevo empleado
         $('#formEmpleado')[0].reset();
         $('#employeeID').val('');
         $('#FormModal').modal('show');
     }
 }
 
-
 // Función de validación de los campos del formulario
 function validarFormulario() {
     var isValid = true;
+    var identificacion = $("#identification").val().trim();
 
-    // Validar Identificación
-    if ($("#identification").val().trim() === "") {
+    // Validar Identificación (Cédula Dominicana de 11 dígitos)
+    if (identificacion === "" || !validarCedula(identificacion)) {
         Swal.fire({
             icon: 'error',
             title: 'Error!',
-            text: 'El campo Identificación es obligatorio.',
+            text: 'Ingrese una cédula válida de 11 dígitos.',
             confirmButtonText: 'Aceptar'
         });
         return false;
@@ -249,7 +225,7 @@ function validarFormulario() {
         Swal.fire({
             icon: 'error',
             title: 'Error!',
-            text: 'El campo Salario Mensual es obligatorio y debe ser un número mayor que 0.',
+            text: 'El campo Salario Mensual es obligatorio y debe ser mayor a 0.',
             confirmButtonText: 'Aceptar'
         });
         return false;
@@ -266,40 +242,43 @@ function validarFormulario() {
         return false;
     }
 
-    return isValid; // Si todo es válido, devolver true
+    return isValid;
+}
+
+// Función para validar la cédula dominicana (11 dígitos)
+function validarCedula(cedula) {
+    var regexCedula = /^[0-9]{11}$/; // Expresión regular para validar 11 dígitos
+    return regexCedula.test(cedula);
 }
 
 // Función para guardar el empleado (crear o actualizar)
 function Guardar() {
-    // Primero validamos los campos del formulario
     if (!validarFormulario()) {
-        return; // Si la validación falla, no se ejecuta el código de guardado
+        return;
     }
 
-    var formData = $("#formEmpleado").serialize(); // Serializamos los datos del formulario
+    var formData = $("#formEmpleado").serialize();
 
-    var id = $('#employeeID').val(); // Verificamos si estamos creando o editando
-    var url = id ? '/Empleados/Guardar/' + id : '/Empleados/Guardar'; // Cambia según la operación
-    var tipo = id ? 'PUT' : 'POST'; // Método HTTP para actualizar o crear
+    var id = $('#employeeID').val();
+    var url = id ? '/Empleados/Guardar/' + id : '/Empleados/Guardar';
+    var tipo = id ? 'PUT' : 'POST';
 
     jQuery.ajax({
         url: url,
         type: tipo,
-        data: formData, // Enviamos los datos serializados
+        data: formData,
         success: function (data) {
             if (data.resultado) {
-                $('#FormModal').modal('hide'); // Cierra el modal
-                // Recarga la tabla o actualiza la tabla de empleados
+                $('#FormModal').modal('hide');
                 Swal.fire({
                     icon: 'success',
                     title: 'Guardado!',
                     text: 'El empleado se ha guardado exitosamente.',
                     confirmButtonText: 'Aceptar'
                 }).then(() => {
-                    location.reload(); // Recarga la página o actualiza la tabla
+                    location.reload();
                 });
             } else {
-                // Mostrar SweetAlert2 de error
                 Swal.fire({
                     icon: 'error',
                     title: 'Error!',
@@ -310,7 +289,6 @@ function Guardar() {
         },
         error: function (error) {
             console.log(error);
-            // Mostrar SweetAlert2 en caso de error en la solicitud
             Swal.fire({
                 icon: 'error',
                 title: 'Error!',

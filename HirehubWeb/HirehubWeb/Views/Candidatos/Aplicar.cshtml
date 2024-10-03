@@ -6,17 +6,16 @@
 <!-- Cargar un script personalizado -->
 
 <ol class="breadcrumb mb-4 mt-4">
-    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestion</a></li>
+    <li class="breadcrumb-item"><a href="index.html" style="color: #20c997;">Gestión</a></li>
     <li class="breadcrumb-item active">Candidatos</li>
 </ol>
-
 
 <form id="formCandidato" onsubmit="return Guardar()">
     <div class="row mb-4">
         <div class="col-sm-12">
             <div class="form-floating">
-                <input type="text" class="form-control required rounded-3" id="identification" name="identification" autocomplete="off" placeholder="Identificación" required>
-                <label for="identification" class="text-muted">Identificación (Cédula/Pasaporte)</label>
+                <input type="text" class="form-control required rounded-3" id="identification" name="identification" autocomplete="off" placeholder="Identificación" maxlength="11" required>
+                <label for="identification" class="text-muted">Identificación (Cédula de 11 dígitos)</label>
             </div>
         </div>
     </div>
@@ -38,7 +37,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="row mb-4">
         <div class="col-sm-12">
@@ -132,11 +130,9 @@
                         text: 'El candidato se ha guardado exitosamente.',
                         confirmButtonText: 'Aceptar'
                     }).then(() => {
-                        // Aquí puedes redirigir o realizar alguna acción
                         window.location.href = "/Home/Index"; // Redirigir a la lista de candidatos
                     });
                 } else {
-                    // Mostrar SweetAlert2 de error
                     Swal.fire({
                         icon: 'error',
                         title: 'Error!',
@@ -147,106 +143,51 @@
             },
             error: function (error) {
                 console.log(error);
-                // Mostrar SweetAlert2 en caso de error en la solicitud
                 Swal.fire({
                     icon: 'error',
                     title: 'Error!',
                     text: 'Hubo un problema al enviar la solicitud.',
                     confirmButtonText: 'Aceptar'
                 });
-            },
-            beforeSend: function () {
-                // Aquí puedes mostrar un spinner o algún indicativo de carga
             }
         });
 
         return false; // Prevenir que el formulario realice un submit tradicional
     }
 
-
     // Función de validación personalizada
     function validarFormulario() {
         var isValid = true;
 
-        // Validar Identificación
-        if ($("#identification").val().trim() === "") {
+        // Validar Identificación (Cédula Dominicana de 11 dígitos)
+        var identificacion = $("#identification").val().trim();
+        if (identificacion === "" || !validarCedula(identificacion)) {
             Swal.fire({
                 icon: 'warning',
                 title: 'Advertencia!',
-                text: 'Por favor, ingrese la Identificación (Cédula/Pasaporte).',
+                text: 'Por favor, ingrese una cédula válida de 11 dígitos.',
                 confirmButtonText: 'Aceptar'
             });
             isValid = false;
         }
 
-        // Validar Nombre completo
-        if ($("#name").val().trim() === "") {
+        // Validar el resto de los campos
+        if ($("#name").val().trim() === "" || $("#department").val().trim() === "" || $("#desiredSalary").val().trim() === "" || $("#keyCompetencies").val().trim() === "" || $("#keyTrainings").val().trim() === "" || $("#workExperience").val().trim() === "") {
             Swal.fire({
                 icon: 'warning',
                 title: 'Advertencia!',
-                text: 'Por favor, ingrese el Nombre completo.',
+                text: 'Por favor, complete todos los campos obligatorios.',
                 confirmButtonText: 'Aceptar'
             });
             isValid = false;
         }
 
-        // Validar Departamento
-        if ($("#department").val().trim() === "") {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Advertencia!',
-                text: 'Por favor, ingrese el Departamento.',
-                confirmButtonText: 'Aceptar'
-            });
-            isValid = false;
-        }
-
-        // Validar Salario deseado
-        if ($("#desiredSalary").val().trim() === "" || parseFloat($("#desiredSalary").val()) <= 0) {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Advertencia!',
-                text: 'Por favor, ingrese un Salario deseado válido.',
-                confirmButtonText: 'Aceptar'
-            });
-            isValid = false;
-        }
-
-        // Validar Competencias clave
-        if ($("#keyCompetencies").val().trim() === "") {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Advertencia!',
-                text: 'Por favor, ingrese las Competencias clave.',
-                confirmButtonText: 'Aceptar'
-            });
-            isValid = false;
-        }
-
-        // Validar Capacitaciones clave
-        if ($("#keyTrainings").val().trim() === "") {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Advertencia!',
-                text: 'Por favor, ingrese las Capacitaciones clave.',
-                confirmButtonText: 'Aceptar'
-            });
-            isValid = false;
-        }
-
-        // Validar Experiencia laboral
-        if ($("#workExperience").val().trim() === "") {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Advertencia!',
-                text: 'Por favor, ingrese la Experiencia laboral.',
-                confirmButtonText: 'Aceptar'
-            });
-            isValid = false;
-        }
-
-        // Si todas las validaciones pasan, el formulario es válido
         return isValid;
     }
-</script>
 
+    // Función para validar la cédula dominicana (11 dígitos)
+    function validarCedula(cedula) {
+        var regexCedula = /^[0-9]{11}$/; // Expresión regular para validar 11 dígitos
+        return regexCedula.test(cedula); // Retorna true si cumple con la expresión
+    }
+</script>

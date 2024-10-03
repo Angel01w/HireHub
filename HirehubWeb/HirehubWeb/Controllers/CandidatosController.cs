@@ -10,11 +10,16 @@ namespace HirehubWeb.Controllers
     {
         private readonly IBaseRepository<Candidate> _candidatosrepositorio;
         private readonly IBaseRepository<Position> _posicionrepositorio;
+        private readonly IBaseRepository<Employee> _employeerepositorio;
+        private readonly ApplicationDbContext _applicationDBContext;
 
-        public CandidatosController(IBaseRepository<Candidate> capacitacionessrepositorio, IBaseRepository<Position> posicionrepositorio)
+
+        public CandidatosController(IBaseRepository<Candidate> capacitacionessrepositorio, IBaseRepository<Position> posicionrepositorio, IBaseRepository<Employee> employeerepositorio, ApplicationDbContext applicationDBContext)
         {
             _candidatosrepositorio = capacitacionessrepositorio;
             _posicionrepositorio = posicionrepositorio;
+            _employeerepositorio = employeerepositorio;
+            _applicationDBContext = applicationDBContext;
         }
 
         // GET: CompetenciasController
@@ -165,6 +170,58 @@ namespace HirehubWeb.Controllers
             catch (Exception ex)
             {
 
+                return Json(new { resultado = false, mensaje = ex.Message });
+            }
+        }
+
+
+        [HttpPost]
+        public async Task<JsonResult> ContratarAsync([FromBody] Candidate candidate)
+        {
+            try
+            {
+                // Asignar el estado correctamente
+
+                Result<bool> result;
+
+                    Employee employee = new Employee();
+                    employee.EmployeeID = 0;
+                    employee.Identification = candidate.Identification;
+                    employee.Name = candidate.Name;
+                    employee.HireDate = DateTime.Now;
+                    employee.Department = candidate.Department;
+                    employee.Position = candidate.DesiredPosition;
+                    employee.MonthlySalary = candidate.DesiredSalary;
+                    employee.Status = "Activo";
+
+                    // Si es un nuevo registro
+                    result = await _employeerepositorio.Add(employee);
+                
+              
+
+                // Verificar el resultado
+                if (result.Success)
+                {
+                    // Primero elimina las competencias relacionadas con el candidato
+                    var competencias = _applicationDBContext.CandidateCompetencies.Where(c => c.CandidateID == candidate.CandidateID).ToList();
+                    _applicationDBContext.CandidateCompetencies.RemoveRange(competencias);
+
+                    // Luego elimina al candidato
+                    var candidato = _applicationDBContext.Candidates.Find(candidate.CandidateID);
+                    if (candidato != null)
+                    {
+                        _applicationDBContext.Candidates.Remove(candidato);
+                    }
+
+                    _applicationDBContext.SaveChanges(); return Json(new { resultado = true });
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje = result.ErrorMessage });
+                }
+            }
+            catch (Exception ex)
+            {
                 return Json(new { resultado = false, mensaje = ex.Message });
             }
         }

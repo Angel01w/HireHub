@@ -29,7 +29,14 @@
                 "data": null,
                 "render": function (data, type, row, meta) {
                     return $("<div>").addClass("d-grid gap-2 d-md-flex justify-content-md-start") // Botones se acomodan en pantallas móviles
-                       
+                        .append(
+                            $("<button>").addClass("btn btn-success btn-contratar btn-sm me-md-2 d-block d-md-inline-block") // Botón verde
+                                .append($("<i>").addClass("fas fa-plus me-1")) // Icono de agregar con margen
+                                .append("Contratar") // Texto del botón
+                                .attr({ "data-informacion": JSON.stringify(row) }) // Atributo data-informacion para contratar
+                        )
+
+
                         .append(
                             $("<button>").addClass("btn btn-danger btn-eliminar btn-sm d-block d-md-inline-block") // Botón "eliminar"
                                 .append($("<i>").addClass("fas fa-trash"))
@@ -236,7 +243,62 @@
                             table.ajax.reload(); // Recarga la tabla DataTable
                             Swal.fire(
                                 'Eliminado!',
-                                'La Capacitacion ha sido eliminado.',
+                                'El Candidato ha sido eliminado.',
+                                'success'
+                            );
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error!',
+                                text: data.mensaje,
+                                confirmButtonText: 'Aceptar'
+                            });
+                        }
+                    },
+                    error: function (error) {
+                        console.log(error);
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error!',
+                            text: 'Hubo un problema al enviar la solicitud.',
+                            confirmButtonText: 'Aceptar'
+                        });
+                    }
+                });
+            }
+        });
+    });
+
+
+
+
+    // Contratar Registro
+
+    $(document).on('click', '.btn-contratar', function (event) {
+        var json = $(this).attr("data-informacion"); // Obtiene la información como string JSON
+        var dataObj = JSON.parse(json); // Convierte el string JSON en un objeto JavaScript
+
+        Swal.fire({
+            title: '¿Estás seguro Contratarlo?',
+            text: "¡No podrás revertir esto!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sí, contratalo!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                jQuery.ajax({
+                    url: "/Candidatos/Contratar",
+                    type: "POST",
+                    data: JSON.stringify(dataObj), // Enviamos el modelo completo
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        if (data.resultado) {
+                            table.ajax.reload(); // Recarga la tabla DataTable
+                            Swal.fire(
+                                'Contratado!',
+                                'El Candidato ha sido Contratado.',
                                 'success'
                             );
                         } else {

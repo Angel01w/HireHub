@@ -113,7 +113,18 @@
             var startDate = $('#startDate').val();
             var endDate = $('#endDate').val();
 
-            // Validación de las fechas
+            // Validar si ambos campos de fecha están llenos
+            if (!startDate || !endDate) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Fechas requeridas',
+                    text: 'Ambos campos de fecha de inicio y fin deben estar llenos para realizar la consulta.',
+                    confirmButtonText: 'Aceptar'
+                });
+                return;
+            }
+
+            // Validación de las fechas: la fecha de inicio no puede ser posterior a la fecha de fin
             if (new Date(startDate) > new Date(endDate)) {
                 Swal.fire({
                     icon: 'error',
@@ -167,6 +178,7 @@
                 }
             });
         }
+
     </script>
 
     <!-- SweetAlert2 para las alertas -->

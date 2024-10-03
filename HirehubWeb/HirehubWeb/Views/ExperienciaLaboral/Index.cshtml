@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Experiencia Laboral";
+}
+
+<h2 class="text-center">Lista de Experiencia Laboral</h2>
+
+<div class="container mt-4">
+    <!-- Tabla de WorkExperience -->
+    <table id="workExperienceTable" class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID de Experiencia</th>
+                <th>Empresa</th>
+                <th>Posición</th>
+                <th>Fecha de Inicio</th>
+                <th>Fecha de Fin</th>
+                <th>Salario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Datos cargados dinámicamente por AJAX -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Script para cargar los datos dinámicamente -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Llamada AJAX para obtener los datos de la experiencia laboral
+        $.ajax({
+            url: '@Url.Action("GetWorkExperiencesJson", "ExperienciaLaboral")',
+            method: 'GET',
+            success: function (data) {
+                var tableBody = $('#workExperienceTable tbody');
+                tableBody.empty(); // Limpiar la tabla antes de llenar
+
+                data.forEach(function (experience) {
+                    var row = '<tr>' +
+                        '<td>' + experience.experienceID + '</td>' +
+                        '<td>' + experience.company + '</td>' +
+                        '<td>' + experience.positionHeld + '</td>' +
+                        '<td>' + new Date(experience.startDate).toLocaleDateString("es-ES") + '</td>' +
+                        '<td>' + new Date(experience.endDate).toLocaleDateString("es-ES") + '</td>' +
+                        '<td>' + parseFloat(experience.salary).toLocaleString('es-ES', { style: 'currency', currency: 'USD' }) + '</td>' +
+                        '</tr>';
+                    tableBody.append(row);
+                });
+            },
+            error: function () {
+                alert('Error al obtener los datos.');
+            }
+        });
+    });
+</script>

@@ -20,7 +20,7 @@ namespace HirehubWeb.Models
         public DbSet<Position> Positions { get; set; }
         public DbSet<Training> Trainings { get; set; }
         public DbSet<Users> Users { get; set; }
-        public DbSet<WorkExperience> WorkExperiences { get; set; }
+        public DbSet<WorkExperience> WorkExperience { get; set; }
 
       
     }

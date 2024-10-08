@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\views\\candidatos\\aplicar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\views\\candidatos\\aplicar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\wwwroot\\javascripts\\empleado\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\wwwroot\\javascripts\\empleado\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\views\\empleados\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\views\\empleados\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\views\\candidatos\\aplicar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\views\\candidatos\\aplicar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\wwwroot\\javascripts\\empleado\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|solutionrelative:hirehubweb\\wwwroot\\javascripts\\empleado\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC01A089-9AE5-4F66-9D24-B95175E3F205}|HirehubWeb\\HirehubWeb.csproj|c:\\users\\dell\\desktop\\lbtr case\\hirehub\\hirehubweb\\hirehubweb\\views\\experiencialaboral\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -201,7 +201,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -230,45 +230,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Aplicar.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Candidatos\\Aplicar.cshtml",
               "RelativeDocumentMoniker": "HirehubWeb\\Views\\Candidatos\\Aplicar.cshtml",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Candidatos\\Aplicar.cshtml",
               "RelativeToolTip": "HirehubWeb\\Views\\Candidatos\\Aplicar.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T22:33:21.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "HirehubWeb\\Views\\Empleados\\Index.cshtml",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Empleados\\Index.cshtml",
               "RelativeToolTip": "HirehubWeb\\Views\\Empleados\\Index.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAIgAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T23:34:13.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Empleado\\Home.js",
               "RelativeDocumentMoniker": "HirehubWeb\\wwwroot\\JavaScripts\\Empleado\\Home.js",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\wwwroot\\JavaScripts\\Empleado\\Home.js",
               "RelativeToolTip": "HirehubWeb\\wwwroot\\JavaScripts\\Empleado\\Home.js",
-              "ViewState": "AgIAABABAAAAAAAAAAAswDkBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAswLoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-02T23:36:42.71Z"
+              "WhenOpened": "2024-10-02T23:36:42.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EmpleadosController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Controllers\\EmpleadosController.cs",
               "RelativeDocumentMoniker": "HirehubWeb\\Controllers\\EmpleadosController.cs",
@@ -276,12 +277,11 @@
               "RelativeToolTip": "HirehubWeb\\Controllers\\EmpleadosController.cs",
               "ViewState": "AgIAAKUAAAAAAAAAAAAAAIUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:18:56.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T23:18:56.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Competencias\\Index.cshtml",
               "RelativeDocumentMoniker": "HirehubWeb\\Views\\Competencias\\Index.cshtml",
@@ -289,12 +289,11 @@
               "RelativeToolTip": "HirehubWeb\\Views\\Competencias\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T23:34:28.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T23:34:28.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HirehubWeb\\Views\\Home\\Index.cshtml",
@@ -302,12 +301,11 @@
               "RelativeToolTip": "HirehubWeb\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T14:10:22.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:10:22.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Candidatos\\Index.cshtml",
               "RelativeDocumentMoniker": "HirehubWeb\\Views\\Candidatos\\Index.cshtml",
@@ -315,12 +313,11 @@
               "RelativeToolTip": "HirehubWeb\\Views\\Candidatos\\Index.cshtml",
               "ViewState": "AgIAAIQAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T21:56:44.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T21:56:44.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\ConsultaReporte\\Index.cshtml",
               "RelativeDocumentMoniker": "HirehubWeb\\Views\\ConsultaReporte\\Index.cshtml",
@@ -328,18 +325,17 @@
               "RelativeToolTip": "HirehubWeb\\Views\\ConsultaReporte\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T22:16:07.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T22:16:07.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index2.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Empleados\\Index2.cshtml",
               "RelativeDocumentMoniker": "HirehubWeb\\Views\\Empleados\\Index2.cshtml",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\LBTR CASE\\HireHub\\HirehubWeb\\HirehubWeb\\Views\\Empleados\\Index2.cshtml",
               "RelativeToolTip": "HirehubWeb\\Views\\Empleados\\Index2.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-01T23:19:20.754Z",
               "EditorCaption": ""
@@ -474,8 +470,7 @@
               "RelativeToolTip": "HirehubWeb\\wwwroot\\JavaScripts\\Puestos\\Home.js",
               "ViewState": "AgIAABIAAAAAAAAAAAAawB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-01T20:53:27.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T20:53:27.848Z"
             },
             {
               "$type": "Document",

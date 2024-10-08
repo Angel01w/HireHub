@@ -164,10 +164,11 @@
         if (identificacion === "" || !validarCedulaDominicana(identificacion)) {
             Swal.fire({
                 icon: 'warning',
-                title: 'Advertencia!',
-                text: 'Por favor, ingrese una cédula válida de 11 dígitos.',
-                confirmButtonText: 'Aceptar'
+                title: 'Cédula Incorrecta',
+                text: 'La cédula proporcionada no es válida en el formato dominicano. Asegúrese de que contenga 11 dígitos numéricos sin espacios ni caracteres especiales.',
+                confirmButtonText: 'Reintentar'
             });
+
             isValid = false;
         }
 

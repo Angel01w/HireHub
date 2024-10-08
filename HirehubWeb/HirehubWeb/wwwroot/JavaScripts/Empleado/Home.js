@@ -179,11 +179,12 @@ function validarFormulario() {
     // Validar Identificación (Cédula Dominicana de 11 dígitos)
     if (identificacion === "" || !validarCedulaDominicana(identificacion)) {
         Swal.fire({
-            icon: 'error',
-            title: 'Error!',
-            text: 'Ingrese una cédula válida de 11 dígitos.',
-            confirmButtonText: 'Aceptar'
+            icon: 'warning',
+            title: 'Cédula Incorrecta',
+            text: 'La cédula proporcionada no es válida en el formato dominicano. Asegúrese de que contenga 11 dígitos numéricos sin espacios ni caracteres especiales.',
+            confirmButtonText: 'Reintentar'
         });
+
         return false;
     }
 

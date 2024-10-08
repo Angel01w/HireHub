@@ -177,7 +177,7 @@ function validarFormulario() {
     var identificacion = $("#identification").val().trim();
 
     // Validar Identificación (Cédula Dominicana de 11 dígitos)
-    if (identificacion === "" || !validarCedula(identificacion)) {
+    if (identificacion === "" || !validarCedulaDominicana(identificacion)) {
         Swal.fire({
             icon: 'error',
             title: 'Error!',
@@ -246,9 +246,23 @@ function validarFormulario() {
 }
 
 // Función para validar la cédula dominicana (11 dígitos)
-function validarCedula(cedula) {
+function validarCedulaDominicana(cedula) {
     var regexCedula = /^[0-9]{11}$/; // Expresión regular para validar 11 dígitos
-    return regexCedula.test(cedula);
+    if (!regexCedula.test(cedula)) {
+        return false;
+    }
+
+    // Coeficientes para la validación
+    const multiplicadores = [1, 2, 1, 2, 1, 2, 1, 2, 1, 2];
+    let suma = 0;
+
+    for (let i = 0; i < 10; i++) {
+        let producto = parseInt(cedula.charAt(i)) * multiplicadores[i];
+        suma += producto > 9 ? Math.floor(producto / 10) + (producto % 10) : producto;
+    }
+
+    const digitoVerificador = (10 - (suma % 10)) % 10;
+    return digitoVerificador === parseInt(cedula.charAt(10));
 }
 
 // Función para guardar el empleado (crear o actualizar)
@@ -258,7 +272,6 @@ function Guardar() {
     }
 
     var formData = $("#formEmpleado").serialize();
-
     var id = $('#employeeID').val();
     var url = id ? '/Empleados/Guardar/' + id : '/Empleados/Guardar';
     var tipo = id ? 'PUT' : 'POST';

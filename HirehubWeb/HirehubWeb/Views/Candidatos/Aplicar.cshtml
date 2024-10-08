@@ -161,7 +161,7 @@
 
         // Validar Identificación (Cédula Dominicana de 11 dígitos)
         var identificacion = $("#identification").val().trim();
-        if (identificacion === "" || !validarCedula(identificacion)) {
+        if (identificacion === "" || !validarCedulaDominicana(identificacion)) {
             Swal.fire({
                 icon: 'warning',
                 title: 'Advertencia!',
@@ -186,8 +186,30 @@
     }
 
     // Función para validar la cédula dominicana (11 dígitos)
-    function validarCedula(cedula) {
-        var regexCedula = /^[0-9]{11}$/; // Expresión regular para validar 11 dígitos
-        return regexCedula.test(cedula); // Retorna true si cumple con la expresión
+    function validarCedulaDominicana(cedula) {
+        // Eliminar espacios en blanco
+        cedula = cedula.replace(/\s+/g, '');
+
+        // Verificar que la cédula tenga exactamente 11 dígitos
+        if (cedula.length !== 11 || !/^\d+$/.test(cedula)) {
+            return false;
+        }
+
+        // Coeficientes para la validación
+        const multiplicadores = [1, 2, 1, 2, 1, 2, 1, 2, 1, 2];
+
+        // Cálculo de la suma de productos
+        let suma = 0;
+        for (let i = 0; i < 10; i++) {
+            let producto = parseInt(cedula.charAt(i)) * multiplicadores[i];
+            // Si el producto es mayor que 9, sumamos los dígitos del resultado
+            suma += producto > 9 ? Math.floor(producto / 10) + (producto % 10) : producto;
+        }
+
+        // Obtener el dígito verificador
+        const digitoVerificador = (10 - (suma % 10)) % 10;
+
+        // Comparar el dígito verificador con el último dígito de la cédula
+        return digitoVerificador === parseInt(cedula.charAt(10));
     }
 </script>
